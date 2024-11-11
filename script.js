@@ -63,7 +63,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
                'Message: ' + decodeURIComponent(message);
 
     // Create the mailto link
-    var mailtoLink = 'mailto:info@dipurapsychology.com' +
+    var mailtoLink = 'mailto:dipuranatasha@gmail.com' +
                      '?subject=' + encodeURIComponent(subject) +
                      '&body=' + body;
 
