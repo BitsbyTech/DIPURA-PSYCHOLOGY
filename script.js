@@ -69,4 +69,5 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 
     // Open the default email client with the pre-filled content
     window.location.href = mailtoLink;
+    document.getElementById('contactForm').reset();
 });
