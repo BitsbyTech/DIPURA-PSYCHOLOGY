@@ -55,7 +55,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     var message = encodeURIComponent(document.getElementById('message').value);
 
     // Construct the email subject and body
-    var subject = 'Contact Form Submission';
+    var subject = 'RE: Service Request Contact Form';
     var body = 'Name: ' + decodeURIComponent(name) + '%0D%0A' +
                'Email: ' + decodeURIComponent(email) + '%0D%0A' +
                'Phone Number: ' + decodeURIComponent(phone) + '%0D%0A' +
